@@ -1,13 +1,15 @@
+
+<?php include_once("../../../config.php");?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include_once($_SERVER['DOCUMENT_ROOT'].'/src/views/includes/headers.php');?> 
-    <link rel="stylesheet" href="../../../src/views/css/crearDriver.css">
+    <?php include_once(RAIZ.'/src/views/includes/headers.php');?> 
+    <link rel="stylesheet" href=<?php echo _DOMAIN.'/src/views/css/crearDriver.css'?>>
 </head>
 <body>
-    <?php include_once($_SERVER['DOCUMENT_ROOT'].'/src/views/includes/nav.php');?> 
+    <?php include_once(RAIZ.'/src/views/includes/nav.php');?> 
     <h3>Crear Conductor </h3>
     <div class="containter">
         <div id="form_driver">
