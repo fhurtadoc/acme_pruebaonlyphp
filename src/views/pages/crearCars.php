@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include_once('../../../src/views/includes/headers.php');?>  
+    <?php include_once($_SERVER['DOCUMENT_ROOT'].'/src/views/includes/headers.php');?>  
     <link rel="stylesheet" href="../../../src/views/css/style_createCar.css">    
 </head>
 <body>
-<?php include_once('../../../src/views/includes/nav.php');?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/src/views/includes/nav.php');?>
     
     <form action="#" class="form">
       <h1 class="text-center">Registrar Vehiculo</h1>

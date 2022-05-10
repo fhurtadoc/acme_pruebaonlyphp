@@ -1,7 +1,7 @@
 <?php
-include_once('./src/model/car.php');
-include_once('./src/model/driver.php');
-include_once('./src/model/owners.php');
+include_once($_SERVER['DOCUMENT_ROOT'].'/src/model/car.php');
+include_once($_SERVER['DOCUMENT_ROOT'].'/src/model/driver.php');
+include_once($_SERVER['DOCUMENT_ROOT'].'/src/model/owners.php');
 
 $car_new= new Car();
 $driver_new= new Driver();

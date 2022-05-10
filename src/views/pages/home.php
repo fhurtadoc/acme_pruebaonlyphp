@@ -1,4 +1,4 @@
-<?php include_once('./config.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/config.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include_once('./src/views/includes/headers.php');?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'].'/src/views/includes/headers.php');?>
     <script src=<?php echo  VIEWSHTML.'js/home.js'?>></script>    
 </head>
 <body>
-<?php include_once('./src/views/includes/nav.php');?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/src/views/includes/nav.php');?>
 <style>
     .continer{
         width: 80%;
