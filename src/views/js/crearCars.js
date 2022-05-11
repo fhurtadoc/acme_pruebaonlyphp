@@ -213,6 +213,7 @@ $( "#accordion2" ).accordion({
                         data:driver    
                     }).done(function(res) {
                         let data=JSON.parse(res);        
+                        id_user=data.id 
                         Swal.fire({
                             position: 'top-end',
                             icon: 'success',
@@ -221,6 +222,7 @@ $( "#accordion2" ).accordion({
                             timer: 1500,                            
                             text: data.mensaje.toString(),                        
                           })
+                          
                     })                                     
                 }else{                    
                     Swal.fire({
